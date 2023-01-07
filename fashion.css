@@ -200,8 +200,7 @@ p>span {
 
 @media (max-width:1085px) {
     .img_box {
-        width: 450px;
-        height: 450px;
+        width: 100%;
     }
 
     .text_box {
@@ -222,8 +221,7 @@ p>span {
     }
 
     .img_box {
-        width: 400px;
-        height: 400px;
+        width: 100%;
     }
 }
 
@@ -255,8 +253,7 @@ p>span {
 
 @media (max-width:803px) {
     .img_box {
-        width: 350px;
-        height: 350px;
+        width: 100%;
         margin-top: 40px;
     }
 
@@ -383,10 +380,6 @@ p>span {
     text-align: center;
 }
 
-.item img {
-    height: 350px;
-}
-
 .card-body>h3 {
     text-align: center;
 }
@@ -395,11 +388,6 @@ p>span {
     background-color: #342625;
     opacity: 0.9;
     color: white;
-}
-
-.mycorner_img {
-    height: 580px;
-    width: 580px;
 }
 
 .mycorner_text {
@@ -491,19 +479,9 @@ p>span {
         padding: 0px 12px 0px 20px;
     }
 
-    .item img {
-        height: 200px;
-    }
-}
-
-@media (max-width:576px) {
-    .item img {
-        height: 350px;
-    }
 }
 
 .exhibition_img {
-    height: 580px;
     width: 100%;
 }
 
@@ -518,74 +496,7 @@ p>span {
     font-weight: bold;
 }
 
-@media (max-width:1130px) {
-    .exhibition_img {
-        height: 500px;
-    }
-}
 
-@media (max-width:1080px) {
-    .exhibition_img {
-        height: 480px;
-    }
-}
-
-@media (max-width:1000px) {
-    .exhibition_img {
-        height: 450px;
-    }
-}
-
-@media (max-width:950px) {
-    .exhibition_img {
-        height: 430px;
-    }
-}
-
-@media (max-width:900px) {
-    .exhibition_img {
-        height: 400px;
-    }
-}
-
-@media (max-width:865px) {
-    .exhibition_text {
-        font-size: 16px;
-    }
-}
-
-@media (max-width:850px) {
-    .exhibition_img {
-        height: 380px;
-    }
-}
-
-@media (max-width:800px) {
-    .exhibition_img {
-        height: 350px;
-    }
-}
-
-@media (max-width:700px) {
-    .exhibition_img {
-        height: 320px;
-    }
-}
-
-@media (max-width:650px) {
-    .exhibition_img {
-        height: 300px;
-    }
-}
-
-@media (max-width:600px) {
-    .exhibition_img {
-        height: 270px;
-    }
-}
-
-@media (max-width:550px) {
-    .exhibition_img {
-        height: 240px;
-    }
+.item img {
+    height: 350px;
 }
