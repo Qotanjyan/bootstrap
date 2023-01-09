@@ -9,6 +9,7 @@
 
 body {
     background: #342625;
+    overflow: auto;
 }
 
 nav {
@@ -260,6 +261,11 @@ p>span {
     .left_side {
         margin-top: 80px;
     }
+
+    .text_with_lines::after,
+    .text_with_lines::before {
+        display: none;
+    }
 }
 
 @media (max-width:768px) {
@@ -272,6 +278,10 @@ p>span {
         text-align: center;
     }
 
+    .left_side{
+        padding: unset;
+    }
+
     .left_side>h1 {
         font-size: 22px;
     }
@@ -282,6 +292,38 @@ p>span {
 
     .left_side>button {
         margin-left: 20px;
+    }
+
+    label.logo{
+        padding: unset;
+    }
+}
+
+@media (max-width:420px) {
+    label.logo {
+        text-align: center;
+        width: 77%;
+    }
+
+    .logo_img {
+        margin-left: unset;
+    }
+
+    .logo_name{
+        margin-left: 55px;
+        padding-left: unset;
+        margin-top: 75px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:356px){
+    label.logo{
+        width: 73%;
+    }
+    
+    .logo_name>p{
+        margin-left: 125px;
     }
 }
 
@@ -369,10 +411,6 @@ p>span {
 
 .carousel-item {
     width: 333.333px;
-}
-
-.owl-dot.active {
-    background: green !important;
 }
 
 .item>h2 {
@@ -494,9 +532,4 @@ p>span {
     padding: 10px 30px;
     font-size: 18px;
     font-weight: bold;
-}
-
-
-.item img {
-    height: 350px;
 }
